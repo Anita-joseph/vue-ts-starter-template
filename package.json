@@ -18,5 +18,10 @@
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.35.2",
     "webpack-cli": "^3.3.5"
+  },
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
   }
 }
