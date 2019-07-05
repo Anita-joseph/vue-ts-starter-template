@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<div  class="maincontainer">Hello {{ name }}{{ exclamationMarks }}</div>
-		<button @click="decrement">-</button>
-		<button @click="increment">+</button>
-		</div>
+		<div>Hello {{ name }}{{ exclamationMarks }}</div>
+		<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click="decrement">-</button>
+		<button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click="increment">+</button>
+	</div>
 </template>
 
 <script lang="ts">
@@ -32,3 +32,16 @@ export default Vue.extend({
 		}
 });
 </script>
+
+<style>
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+	.container {
+		width: 80%;
+		margin: 0 50%;
+		border: 1.5px solid #808080;
+	}
+	
+</style>

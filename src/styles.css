@@ -1,0 +1,17 @@
+.container {
+    width: 80%;
+    margin: 0 50%;
+    border: 1.5px solid #808080;
+}
+
+input[type="text"]
+{
+    border: 1px solid #808080;
+}
+
+button
+{
+    border-radius: 3px;
+    background-color: blue;
+    color: white;
+}
