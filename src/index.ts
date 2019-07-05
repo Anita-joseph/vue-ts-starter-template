@@ -1,5 +1,7 @@
 import Vue from "vue";
-import HelloComponent from "./components/Hello";
+// import Vue from "vue";
+import HelloComponent from "./components/Hello.vue";
+// import Todo from "./components/toDo";
 
 let v = new Vue({
     el: "#app",
@@ -12,6 +14,6 @@ let v = new Vue({
         name: "World"
 	},
 	components: {
-		HelloComponent
+    HelloComponent
 	}
 });
